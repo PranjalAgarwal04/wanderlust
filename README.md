@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Wanderlust
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wanderlust is a web application that allows users to explore exotic places, book flights and hotels for their dream vacations. It is built using React and AWS Amplify, with GraphQL data models created using AWS Amplify, and UI components designed in Figma and further modified using AWS Amplify's UI builder. User authentication is handled using AWS Cognito.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Wanderlust is your ultimate travel companion. It offers a seamless and delightful experience for travelers to discover breathtaking destinations, book their flights and accommodations, and embark on unforgettable adventures. The app provides users with a curated selection of exotic places to explore, making it easy to plan their dream vacations with just a few clicks.
 
-### `npm start`
+## Technology Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Wanderlust web app is built using the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: A popular JavaScript library for building user interfaces and creating interactive components.
 
-### `npm test`
+- **AWS Amplify**: A set of tools and services provided by Amazon Web Services (AWS) to simplify the development of scalable and secure cloud-powered applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **AWS Amplify GraphQL API**: It enables easy creation of GraphQL data models, allowing efficient data management and retrieval.
 
-### `npm run build`
+- **Figma**: A collaborative design tool used to create and prototype UI components and layouts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **AWS Cognito**: A fully managed service by AWS that provides authentication, authorization, and user management for web and mobile applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Resources
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [AWS Amplify Documentation](https://docs.amplify.aws/): The official documentation for AWS Amplify, containing guides, examples, and references to help you use the service effectively.
 
-### `npm run eject`
+- [AWS Amplify YouTube Channel](https://www.youtube.com/channel/UCPTKITzYgUcdN1KazjZvW2A): The official YouTube channel for AWS Amplify, featuring video tutorials, demos, and insights from the Amplify team.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the Wanderlust web app locally on your machine, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+git clone https://github.com/your-username/wanderlust.git
+cd wanderlust
+```
 
-## Learn More
+2. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the app:
 
-### Code Splitting
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app should now be running on [http://localhost:3000](http://localhost:3000).
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Explore exotic destinations from around the world.
+- Book flights and hotels for your chosen destinations.
+- User-friendly interface designed for seamless navigation.
+- Secure user authentication with AWS Cognito.
+- Responsive design for a smooth experience on various devices.
 
-### Making a Progressive Web App
+## Feedback and Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We welcome your feedback and contributions to make Wanderlust even better! If you encounter any issues or have suggestions for improvements, please open an issue on this repository. If you'd like to contribute, please submit a pull request, and we'll review it as soon as possible.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Thank you for using Wanderlust! Happy travels! ✈️🏨🌴
