@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wanderlust-staging-03744-authRole",
+      "UnauthRoleArn": "arn:aws:iam::626030239518:role/amplify-wanderlust-staging-03744-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::626030239518:role/amplify-wanderlust-staging-03744-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-wanderlust-staging-03744-deployment",
+      "UnauthRoleName": "amplify-wanderlust-staging-03744-unauthRole",
+      "StackName": "amplify-wanderlust-staging-03744",
+      "StackId": "arn:aws:cloudformation:ap-south-1:626030239518:stack/amplify-wanderlust-staging-03744/7a4878b0-25cc-11ee-89cf-0a0c282c2532",
+      "AmplifyAppId": "d1333jm5ck65pk"
+    }
+  }
+}

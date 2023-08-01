@@ -1,0 +1,68 @@
+enum LocationType {
+  EXOTIC
+  NONEXOTIC
+}
+
+type HotelBooking @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  rooms: Int
+  hotelName: String
+  checkIn: AWSDateTime
+  checkOut: AWSDateTime
+  author: String
+  price: Float
+  paymentStatus: Boolean
+  userID: ID! @index(name: "byUser")
+}
+
+type FlightBooking @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  passengers: Int
+  flightName: String
+  source: String
+  destination: String
+  date: AWSDateTime
+  author: String
+  price: Float
+  paymentStatus: Boolean
+  userID: ID! @index(name: "byUser")
+}
+
+type Location @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  description: String
+  image: AWSURL
+  exotic: LocationType
+}
+
+type Hotel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  location: String
+  price: Float
+  roomsAvailable: Int
+}
+
+type Flight @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  number: Int
+  departureDate: AWSDateTime
+  arrivalDate: AWSDateTime
+  from: String
+  to: String
+  seatsAvailable: Int
+  price: Float
+  route: [String]
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstName: String
+  lastName: String
+  email: AWSEmail
+  FlightBookings: [FlightBooking] @hasMany(indexName: "byUser", fields: ["id"])
+  HotelBookings: [HotelBooking] @hasMany(indexName: "byUser", fields: ["id"])
+}
+ 
