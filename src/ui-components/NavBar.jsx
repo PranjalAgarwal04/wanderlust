@@ -239,7 +239,7 @@ export default function NavBar(props) {
         borderRadius="4px"
         padding="7px 15px 7px 15px"
         backgroundColor="rgba(4,52,149,1)"
-        {...getOverrideProps(overrides, "Button4046524")}
+        {...getOverrideProps(overrides, "Button")}
       >
         <Text
           fontFamily="Inter"
@@ -259,46 +259,8 @@ export default function NavBar(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Login"
-          {...getOverrideProps(overrides, "label4046526")}
-        ></Text>
-      </Flex>
-      <Flex
-        gap="0"
-        direction="row"
-        width="unset"
-        height="unset"
-        justifyContent="center"
-        alignItems="center"
-        shrink="0"
-        alignSelf="stretch"
-        position="relative"
-        border="1px SOLID rgba(0,0,0,0)"
-        borderRadius="4px"
-        padding="7px 15px 7px 15px"
-        backgroundColor="rgba(4,52,149,1)"
-        {...getOverrideProps(overrides, "Button4046528")}
-      >
-        <Text
-          fontFamily="Inter"
-          fontSize="20px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="30px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Sign Up"
-          {...getOverrideProps(overrides, "label4046530")}
+          children="Logout"
+          {...getOverrideProps(overrides, "label")}
         ></Text>
       </Flex>
     </Flex>

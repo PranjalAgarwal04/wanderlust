@@ -19,10 +19,8 @@ export declare type NavBarOverridesProps = {
     Explore?: PrimitiveOverrideProps<TextProps>;
     "Past Bookings"?: PrimitiveOverrideProps<TextProps>;
     "Frame 3214046508"?: PrimitiveOverrideProps<FlexProps>;
-    Button4046524?: PrimitiveOverrideProps<FlexProps>;
-    label4046526?: PrimitiveOverrideProps<TextProps>;
-    Button4046528?: PrimitiveOverrideProps<FlexProps>;
-    label4046530?: PrimitiveOverrideProps<TextProps>;
+    Button?: PrimitiveOverrideProps<FlexProps>;
+    label?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type NavBarProps = React.PropsWithChildren<Partial<FlexProps> & {
     overrides?: NavBarOverridesProps | undefined | null;

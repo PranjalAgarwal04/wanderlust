@@ -16,10 +16,17 @@ import Payment from "./pages/Payment";
 import NavBar from "./ui-components/NavBar";
 import History from "./pages/History";
 
-function App() {
+const handleLogin = () => {};
+
+function App({ signOut }) {
   return (
     <>
-      <NavBar />
+      <NavBar
+        width={"100%"}
+        overrides={{
+          Button: { onClick: signOut },
+        }}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hotel" element={<Hotel />} />
@@ -31,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
