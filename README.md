@@ -33,7 +33,7 @@ To run the Wanderlust web app locally on your machine, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/wanderlust.git
+git clone <repo_url>
 cd wanderlust
 ```
 
