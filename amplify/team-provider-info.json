@@ -10,6 +10,11 @@
       "StackName": "amplify-wanderlust-staging-03744",
       "StackId": "arn:aws:cloudformation:ap-south-1:626030239518:stack/amplify-wanderlust-staging-03744/7a4878b0-25cc-11ee-89cf-0a0c282c2532",
       "AmplifyAppId": "d1333jm5ck65pk"
+    },
+    "categories": {
+      "auth": {
+        "wanderlust": {}
+      }
     }
   }
 }
