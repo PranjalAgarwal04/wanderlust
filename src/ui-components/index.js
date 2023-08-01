@@ -38,13 +38,10 @@ export { default as HotelHistoryCardCollection } from "./HotelHistoryCardCollect
 export { default as StandardCard } from "./StandardCard";
 export { default as SideBar } from "./SideBar";
 export { default as TallCard } from "./TallCard";
-export { default as ActionCard } from "./ActionCard";
 export { default as FlightHistoryCardCollection } from "./FlightHistoryCardCollection";
-export { default as CommentCard } from "./CommentCard";
 export { default as MarketingPricing } from "./MarketingPricing";
 export { default as HeroLayout1 } from "./HeroLayout1";
 export { default as FeaturesText2x2 } from "./FeaturesText2x2";
-export { default as Ampligram } from "./Ampligram";
 export { default as PaymentForm } from "./PaymentForm";
 export { default as FlightHistoryCard } from "./FlightHistoryCard";
 export { default as studioTheme } from "./studioTheme";
